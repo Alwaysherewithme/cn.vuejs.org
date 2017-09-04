@@ -280,7 +280,7 @@ Vue.component('todo-item', {
 ``` js
 Vue.component('todo-item', {
   // todo-item 组件现在接受一个
-  // "prop"，类似于一个自定义属性
+  // "props"，类似于一个自定义属性
   // 这个属性名为 todo。
   props: ['todo'],
   template: '<li>{{ todo.text }}</li>'
